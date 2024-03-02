@@ -9,11 +9,6 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
-"""
-@ensure_annotations :- ensures accurate metadata or annotations are included, enhancing data quality and usability,
-crucial for effective analysis.
-"""
-
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
